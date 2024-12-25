@@ -34,7 +34,7 @@ export default function Home() {
           </div>
 
           {/* 3D Apple Section */}
-          <div className="mt-8">
+          <div className="mt-16">
             <Apple3D />
           </div>
 
