@@ -2,8 +2,8 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Card } from "@/components/ui/card"
 
 export function Calendar() {
-  const days = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"]
-  const dates = [24, 25, 26, 27, 28, 29, 30]
+  const days: string[] = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"]
+  const dates: number[] = [24, 25, 26, 27, 28, 29, 30]
 
   return (
     <Card className="bg-white rounded-2xl border-0 shadow-sm p-6">

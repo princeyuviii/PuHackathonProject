@@ -3,7 +3,12 @@ import { Home, Calendar, Clock, Timer, PieChart, Camera, LogOut } from 'lucide-r
 import { cn } from "@/lib/utils"
 import { motion } from "framer-motion"
 
-const navItems = [
+interface NavItem {
+  icon: React.ElementType;
+  label: string;
+}
+
+const navItems: NavItem[] = [
   { icon: Home, label: 'Home' },
   { icon: Calendar, label: 'Calendar' },
   { icon: Clock, label: 'History' },
@@ -12,7 +17,11 @@ const navItems = [
   { icon: Camera, label: 'Photos' },
 ]
 
-export function Sidebar({ className }) {
+interface SidebarProps {
+  className?: string;
+}
+
+export function Sidebar({ className }: SidebarProps) {
   const [activeItem, setActiveItem] = useState('Home')
 
   return (

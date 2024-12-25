@@ -1,7 +1,15 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
+interface Nutrient {
+  name: string;
+  amount: string;
+  value: string;
+  color: string;
+  progressColor: string;
+}
+
 export function DailyRecap() {
-  const nutrients = [
+  const nutrients: Nutrient[] = [
     { 
       name: "Carbohydrate",
       amount: "54 g",

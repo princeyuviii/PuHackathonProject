@@ -6,15 +6,16 @@ import Chart from 'chart.js/auto'
 import { motion } from "framer-motion"
 
 export function ActivityChart() {
-  const chartRef = useRef(null)
-  const chartInstance = useRef(null)
+  const chartRef = useRef<HTMLCanvasElement>(null)
+  const chartInstance = useRef<Chart | null>(null)
 
   useEffect(() => {
     if (chartInstance.current) {
       chartInstance.current.destroy()
     }
 
-    const ctx = chartRef.current.getContext('2d')
+    const ctx = chartRef.current?.getContext('2d')
+    if (!ctx) return
 
     const gradient1 = ctx.createLinearGradient(0, 0, 0, 200)
     gradient1.addColorStop(0, 'rgba(234, 179, 8, 0.2)')

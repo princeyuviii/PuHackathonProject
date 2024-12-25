@@ -1,8 +1,15 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowRight, Plus } from 'lucide-react'
 
+interface Meal {
+  name: string;
+  description: string;
+  calories: string;
+  bgColor: string;
+}
+
 export function DailyCalories() {
-  const meals = [
+  const meals: Meal[] = [
     {
       name: "Breakfast",
       description: "cold cereal and milk",

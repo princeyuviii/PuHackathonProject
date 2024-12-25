@@ -18,26 +18,26 @@ export default function Page() {
         <div className="max-w-[1400px] mx-auto p-8">
           <Header />
           <div className="grid grid-cols-12 gap-5">
-  <div className="col-span-8">
-    <div className="grid grid-cols-2 gap-5">
-      <div>
-        <ChallengeCard />
-      </div>
-      <div>
-        <ActivityChart />
-      </div>
-    </div>
-    <div className="grid grid-cols-2 gap-5 mt-5">
-      <DailyRecap />
-      <DailyCalories />
-    </div>
-  </div>
-  <div className="col-span-4 space-y-5">
-    <Calendar />
-    <CaloriesBudget />
-    <WaterTracker />
-  </div>
-</div>
+            <div className="col-span-8">
+              <div className="grid grid-cols-2 gap-5">
+                <div>
+                  <ChallengeCard />
+                </div>
+                <div>
+                  <ActivityChart />
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-5 mt-5">
+                <DailyRecap />
+                <DailyCalories />
+              </div>
+            </div>
+            <div className="col-span-4 space-y-5">
+              <Calendar />
+              <CaloriesBudget />
+              <WaterTracker />
+            </div>
+          </div>
         </div>
       </main>
     </div>
