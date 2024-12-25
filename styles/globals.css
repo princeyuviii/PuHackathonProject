@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-plus-jakarta);
+}
+
+.progress-bar-carb {
+  background: linear-gradient(90deg, #60A5FA 0%, #93C5FD 100%);
+}
+
+.progress-bar-protein {
+  background: linear-gradient(90deg, #FCD34D 0%, #FBBF24 100%);
+}
+
+.progress-bar-fat {
+  background: linear-gradient(90deg, #86EFAC 0%, #4ADE80 100%);
+}
+
+.calories-ring {
+  background: conic-gradient(#B5E5C3 0deg 270deg, #E8F3DC 270deg 360deg);
+}
+
