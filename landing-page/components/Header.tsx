@@ -29,7 +29,7 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="left">
               <SheetHeader>
-                <SheetTitle>Food 404</SheetTitle>
+                <SheetTitle>Error 404</SheetTitle>
               </SheetHeader>
               <div className="flex flex-col gap-4 mt-8">
                 <Input
@@ -53,7 +53,7 @@ export default function Header() {
             href="/" 
             className="text-xl font-semibold tracking-tight hover:text-green-600 transition-colors"
           >
-            Food 404
+            Error 404
           </Link>
 
           {/* Desktop Search */}

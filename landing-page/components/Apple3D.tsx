@@ -25,8 +25,8 @@ function AppleModel() {
     <Center>
       <group
         ref={groupRef}
-        position={[0.5, -1, 0]} // Adjust position
-        rotation={[Math.PI / 8, 0, 0]} // Slight tilt
+        position={[0.65, -1, 0]} // Adjust position
+        rotation={[Math.PI / 16, 0, 0]} // Slight tilt
         scale={[0.2, 0.2, 0.2]} // Adjust scale for visibility
       >
         <primitive
@@ -90,7 +90,7 @@ export default function Apple3D() {
 
         {/* Environment and Controls */}
         <Environment preset="sunset" />
-        <OrbitControls
+        {/* <OrbitControls
           enableZoom
           minDistance={5}
           maxDistance={20}
@@ -98,7 +98,7 @@ export default function Apple3D() {
           maxPolarAngle={Math.PI / 1.8}
           enableDamping
           dampingFactor={0.05}
-        />
+        /> */}
       </Canvas>
 
       {/* Debugging Info */}
