@@ -5,7 +5,7 @@ export function WaterTracker() {
     <Card className="bg-[#2A2F33] rounded-2xl border-0 shadow-sm overflow-hidden">
       <div className="relative h-[200px]">
         <img
-          src="/placeholder.svg?height=200&width=400"
+          src="/water.jpg?height=200&width=400"
           alt="Person drinking water"
           className="w-full h-full object-cover"
         />

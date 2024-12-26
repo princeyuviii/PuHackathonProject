@@ -14,13 +14,13 @@ export function DailyCalories() {
       name: "Breakfast",
       description: "cold cereal and milk",
       calories: "240 Kcal",
-      bgColor: "bg-blue-50",
+      bgColor: "bg-[#cde7fa]",
     },
     {
       name: "Lunch",
       description: "vegetables Salad",
       calories: "240 Kcal",
-      bgColor: "bg-[#E8F3DC]",
+      bgColor: "bg-[#c7fc8d]",
     },
   ]
 

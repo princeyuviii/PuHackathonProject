@@ -22,7 +22,7 @@ export function CaloriesBudget() {
               cy="50"
               r="45"
               fill="none"
-              stroke="#B5E5C3"
+              stroke="#c7fc8d"
               strokeWidth="10"
               strokeDasharray="283"
               strokeDashoffset="70"

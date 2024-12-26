@@ -14,22 +14,22 @@ export function DailyRecap() {
       name: "Carbohydrate",
       amount: "54 g",
       value: "25%",
-      color: "bg-blue-100",
+      color: "bg-[#cde7fa]",
       progressColor: "progress-bar-carb"
     },
     { 
       name: "Protein",
       amount: "16.2 g",
       value: "25%",
-      color: "bg-yellow-100",
+      color: "bg-[#f0b132]",
       progressColor: "progress-bar-protein"
     },
     { 
       name: "Fats",
       amount: "11.2 g",
       value: "25%",
-      color: "bg-green-100",
-      progressColor: "progress-bar-fat"
+      color: "bg-[#c7fc8d]",
+      progressColor: "#f0b132"
     },
   ]
 

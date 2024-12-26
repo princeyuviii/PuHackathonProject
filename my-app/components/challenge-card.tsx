@@ -4,17 +4,17 @@ import { motion } from "framer-motion"
 
 export function ChallengeCard() {
   return (
-    <Card className="bg-[#E8F3DC] rounded-2xl border-0 shadow-sm p-6">
+    <Card className="bg-[#c7fc8d] rounded-2xl border-0 shadow-sm p-6">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-6">
           <div className="relative">
             <img
-              src="/placeholder.svg?height=96&width=96"
+              src="/meal.png?height=96&width=96"
               alt="Healthy meal"
               className="w-24 h-24 rounded-full object-cover"
             />
             <motion.img
-              src="/placeholder.svg?height=40&width=40"
+              src="/dumbel.png?height=40&width=40"
               alt="Dumbbells"
               className="absolute -top-2 -right-2 w-10 h-10"
               animate={{ rotate: [0, 10, 0] }}
@@ -28,7 +28,7 @@ export function ChallengeCard() {
                 {[1, 2].map((i) => (
                   <img
                     key={i}
-                    src="/placeholder.svg?height=24&width=24"
+                    src="/girl.jpg?height=24&width=24"
                     alt={`User ${i}`}
                     className="w-6 h-6 rounded-full border-2 border-white"
                   />
